@@ -1,0 +1,47 @@
+atividade 1>
+
+Mudar o Html/css
+
+Mudei o textos, as redes sociais, e acrescentei mais um arquivo css...
+que contem a animação de "subir"! 
+
+foi usado um ...
+
+  @keyframes up{ from{
+opacity: 0;
+transform: translateY(16px);
+ } ( é uma animação de subir o from é onde a animação começa e o 
+to {
+opacity: 1;
+transform: translateY(0);
+} é onde a animação termina*/
+
+
+e a class no html que recebe esta função é o animate-up.
+
+mudei a classe da foto para um id...
+
+dai primeiro trabalhei a borda da imagem, seguindo de tamanho da foto.
+
+#imagempessoal img{
+  align-items: center;
+border-radius: 5%;
+width:100%;
+}
+
+#imagempessoal {
+  align-items: center;
+  border-radius: 5%;
+  width:50%; 
+  }
+
+acresceitei um hover:
+
+ao descansar  o mouse em cima das "li", o background: muda de cor para um azul suave.
+
+
+.social-icons li:hover{
+background: #17d6eb;
+animation-delay: 300ms;
+
+}

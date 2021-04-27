@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
@@ -32,10 +33,10 @@ body {
 }
 
 .social-icons li a {
-    display: block;
-    background-color: antiquewhite;
-    padding: 40px;
-    border-radius: 25%;
+  display: block;
+  background-color: antiquewhite;
+  padding: 40px;
+  border-radius: 25%;
 }
 
 .social-icons img {
@@ -47,7 +48,22 @@ body {
     font-size: 30px;
     margin-bottom: 60px;
 }
+#imagempessoal img{
+  align-items: center;
+border-radius: 5%;
+width:100%;
+}
 
-.imagem-pessoal img {
-    border-radius: 5%;
+#imagempessoal {
+  align-items: center;
+  border-radius: 5%;
+  width:50%; 
+  
+
+}
+
+.social-icons li:hover{
+background: #17d6eb;
+  animation-delay: 300ms;
+
 }
